@@ -99,4 +99,4 @@ client.on('guildCreate', guild => {
     defaultChannel.send({embed})
 });
 
-client.login('NDE5MzIxNTIwNzMzODE0ODA3.DXudgA.GjjubNd0RjsuKDMCrZ7cPP39WOc');
+client.login(process.env.TOKEN);
